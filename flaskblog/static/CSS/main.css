@@ -67,8 +67,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-custom:hover {
-  background-color: black !important;
-  border-color: black !important;
+  background-color: #B1A5FD !important;
+  border-color: #B1A5FD !important;
 }
 
 .bg-steel {
