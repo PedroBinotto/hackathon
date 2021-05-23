@@ -36,20 +36,46 @@ textarea{
   min-height: 216px;
 }
 
-
-
 body {
   background: #fafafa;
   color: #333333;
-  margin-top: 5rem;
+  margin-top: 2.5rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #444444;
 }
 
+.btn-primary {
+  font-size: 30px;
+  padding: 9px 15px 9px 15px;
+  background-color: #B3DF69 !important;
+  border-color: #B3DF69 !important;
+  border-radius: 10px;
+}
+
+.btn-primary:hover {
+  background-color: #8daf51 !important;
+  border-color: #8daf51 !important;
+}
+
+.btn-custom {
+  background-color: #1E1E1E !important;
+  border-color: #1E1E1E !important;
+  width: 11.5rem;
+}
+
+.btn-custom:hover {
+  background-color: black !important;
+  border-color: black !important;
+}
+
 .bg-steel {
-  background-color: black;
+  background-color: #1E1E1E;
+}
+.bg-steel h1, h2, h3, h4, h5, h6, p {
+  color: #F1F1F1;
 }
 
 .site-header .navbar-nav .nav-link {
@@ -131,4 +157,19 @@ a.article-title:hover {
 #logo {
   color: white;
   text-decoration: none;
+}
+
+.bottom-align{
+  position: absolute;
+  bottom: 0;
+}
+
+.form-custom {
+  background-color: gray;
+  color: white;
+  font-weight: bold;
+  opacity: 97%;
+  border-style: none;
+  margin: 0.5rem;
+  text-align: center;
 }

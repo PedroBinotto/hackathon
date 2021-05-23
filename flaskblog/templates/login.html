@@ -1,0 +1,50 @@
+{% extends 'layout_splash.html' %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-12">
+            <h1 class="h3 text-center mt-5 mb-5" style="margin-bottom: 6rem !important;"> Faça seu Login </h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12" style="padding-left: 20%; padding-right: 20%;">
+            <div class="form-group text-center">
+                <div class="row">
+                    <div class="col-12">
+                        <input class="form-control-label form-control-lg form-custom" placeholder="Email" required="" type="text" value="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <input class="form-control-label form-control-lg form-custom" placeholder="Senha" required="" type="text" value="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <p style="margin: 2px;">
+                        <i>Não possui ainda? <a href="{{ url_for('main.home') }}">BlaBla</a></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12 text-center">
+            <a class="btn btn-primary" style="
+                font-size: 35px;
+                margin-top: 4rem;
+                margin-bottom: 1rem;"
+            href="{{ url_for('main.home') }}">
+                Entrar
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <p class="bg-steel text-center" style="font-size: 1.5rem;">Feito com <i class="fas fa-heart" style="color: #F9A895"></i> pelo #Time15</p>
+        </div>
+    </div>
+{% endblock content %}
+

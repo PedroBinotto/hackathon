@@ -1,0 +1,35 @@
+{% extends 'layout_splash.html' %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-12">
+            <h1 class="display-3 text-center mt-5 mb-5" > --- </h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12" style="padding-left: 20%; padding-right: 20%;">
+            <p style="font-size: 35px; text-align: center;">
+                A página que une ONGs e profisssionais em favor de uma sociedade melhor.
+                <br>
+                Acesse agora e descubra!
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 text-center">
+            <a class="btn btn-primary" style="
+                font-size: 35px;
+                margin-top: 4rem;
+                margin-bottom: 1rem;"
+            href="{{ url_for('main.login') }}">
+                Começar
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <p class="bg-steel text-center" style="font-size: 1.5rem;">Feito com <i class="fas fa-heart" style="color: #F9A895"></i> pelo #Time15</p>
+        </div>
+    </div>
+{% endblock content %}
+
