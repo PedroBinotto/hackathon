@@ -1,7 +1,5 @@
 from flask import (Blueprint, abort, flash, redirect, render_template, request,
                    url_for)
-from flaskblog import db
-from flaskblog.models import Voluntario
 
 main = Blueprint('main', __name__)
 
