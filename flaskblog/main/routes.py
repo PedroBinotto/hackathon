@@ -21,15 +21,15 @@ def home():
 
 @main.route('/ong/branch', methods=['GET'])
 def ong():
-	pass
+	return render_template('ong_menu.html')
 
 
-@main.route('/ong/select', methods=['GET'])
+@main.route('/ong/branch/select', methods=['GET'])
 def ong_select():
-	pass
+	return render_template('ong_select.html')
 
 
-@main.route('/ong/select/service', methods=['GET'])
+@main.route('/ong/branch/select/service', methods=['GET'])
 def ong_service():
 	pass
 
