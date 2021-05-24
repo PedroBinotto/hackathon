@@ -31,7 +31,7 @@ def ong_select():
 
 @main.route('/ong/branch/select/service', methods=['GET'])
 def ong_service():
-	pass
+	return render_template('ong_service.html')
 
 
 @main.route('/ong/professionals', methods=['GET'])
