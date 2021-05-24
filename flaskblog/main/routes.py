@@ -36,7 +36,7 @@ def ong_service():
 
 @main.route('/ong/professionals', methods=['GET'])
 def ong_professionals():
-	pass
+	return render_template('ong_professionals.html')
 
 
 @main.route('/ong/profile', methods=['GET'])
