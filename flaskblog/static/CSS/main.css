@@ -71,6 +71,21 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #B1A5FD !important;
 }
 
+.btn-turq {
+  background-color: #B1A5FD !important;
+  border-color: #B1A5FD !important;
+}
+
+.btn-turq:hover {
+  background-color: #1e1e1e !important;
+  border-color: #1e1e1e !important;
+}
+
+.btn-turq:active {
+  background-color: #1e1e1e !important;
+  border-color: #1e1e1e !important;
+}
+
 .bg-steel {
   background-color: #1E1E1E;
 }

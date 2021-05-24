@@ -14,7 +14,8 @@
 		{% endif %}
 	</head>
 
-	<body style="background-image: url({{ url_for('static', filename='images/bglight.png') }});
+	<body style="
+		background-image: url({{ url_for('static', filename='images/bglight.png') }});
 		background-attachment: fixed">
 	<header class="site-header">
 		<nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top transluscent" id='custom-navbar'>
@@ -41,7 +42,7 @@
 
 	<main role="main" class="container" id='main'>
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-12" style="margin-top: 2rem;">
 				{% with messages = get_flashed_messages(with_categories=true) %}
 					{% if messages %}
 						{% for category, message in messages %}
